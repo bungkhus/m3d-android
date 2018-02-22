@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PengertianActivity" />
+        <activity android:name=".PencegahanActivity" />
+        <activity android:name=".GejalaActivity" />
+        <activity android:name=".DeteksiActivity"></activity>
     </application>
 
 </manifest>
