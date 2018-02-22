@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">D3M</string>
+    <string name="menu_1">PENGERTIAN\nDIABETES MELITUS</string>
+    <string name="menu_2">GEJALA</string>
+    <string name="menu_3">PENCEGAHAN</string>
+    <string name="menu_4">DETEKSI\nDIABETES MELITUS</string>
+    <string name="menu_5">Jadwal Pelajaran</string>
+    <string name="menu_6">Nilai Raport</string>
+    <string name="menu_7">Bantuan</string>
+    <string name="menu_9">Pengaduan</string>
 </resources>
