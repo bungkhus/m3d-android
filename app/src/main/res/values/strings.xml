@@ -1,11 +1,30 @@
 <resources>
     <string name="app_name">D3M</string>
-    <string name="menu_1">PENGERTIAN\nDIABETES MELITUS</string>
-    <string name="menu_2">GEJALA</string>
-    <string name="menu_3">PENCEGAHAN</string>
-    <string name="menu_4">DETEKSI\nDIABETES MELITUS</string>
-    <string name="menu_5">Jadwal Pelajaran</string>
-    <string name="menu_6">Nilai Raport</string>
+    <string name="menu_1">Apa itu DM?</string>
+    <string name="menu_2">Faktor Resiko</string>
+    <string name="menu_3">Komplikasi</string>
+    <string name="menu_4">Deteksi Dini</string>
+    <string name="menu_5">Komposisi Makanan</string>
+    <string name="menu_6">Aktifitas Fisik</string>
     <string name="menu_7">Bantuan</string>
     <string name="menu_9">Pengaduan</string>
+    <string name="fr_1">Kegemukan</string>
+    <string name="fr_2">Obesitas Sentral (lingkar perut diatas 80cm)</string>
+    <string name="fr_3">Aktivitas Fisik Kurang</string>
+    <string name="fr_4">Hipertensi</string>
+    <string name="fr_5">Merokok</string>
+    <string name="fr_6">Kadar Kolesterol</string>
+    <string name="k_1">KEMATIAN</string>
+    <string name="k_2">RESIKO PENYAKIT JANTUNG</string>
+    <string name="k_3">GAGAL GINJAL</string>
+    <string name="k_4">RESIKO STORE</string>
+    <string name="k_5">RETINOPATI DIABETIKUS</string>
+    <string name="km_1">Karbohidrat</string>
+    <string name="km_2">Lemak</string>
+    <string name="km_3">Protein</string>
+    <string name="km_4">Natrium</string>
+    <string name="km_5">Serat</string>
+    <string name="af_1">Intensitas sedang (50-70% denyut nadi maksimal).</string>
+    <string name="af_2">Aerobik 75 menit/minggu.</string>
+    <string name="af_3">Aktivitas dibagi dalam tiga hari per minggu dan tidak ada dua hari berturut-turut tanpa aktivitas fisik.</string>
 </resources>

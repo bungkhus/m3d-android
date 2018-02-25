@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
     tools:context="tk.bungkhus.d3m.PengertianActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:src="@drawable/faq"
+        android:layout_marginRight="8dp"/>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="5dp"
+        android:shadowColor="@color/color_notification_text"
+        android:textSize="@dimen/common_text_size_small"
+        android:text="Diabetes Mellitus merupakan suatu penyakit metabolik dengan karakteristik terjadinya hipeglikemia sebai akibat karena kelainan sekresi insulin, kerja insulin, atau keduanya."
+        />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
