@@ -1,289 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <!--ROW-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
 
-    <LinearLayout
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical"
-        android:paddingBottom="20dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="@string/km_1"
+                android:textColor="@color/color_notification_text"
+                android:textSize="@dimen/common_text_size_small" />
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:text="@string/km_1"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                        <TextView
-                            android:id="@+id/tv1"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:textColor="@color/color_notification_text_secondary"
-                            android:textSize="@dimen/common_text_size_small_very" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="Indeks Glikemik (IG) rendah adalah makaan yang dicerna tubuh secara perlahan dan menyebabkan kenaikan kadar gula darah secara bertahap. Makanan dengan IG rendah adalah antara lain whole grain (gandum utuh), buah-buahan, sayuran dan kacang-kacangan yang juga termasuk dalammakanan kaya serat."
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very" />
 
         </LinearLayout>
 
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="@string/km_2"
+                android:textColor="@color/color_notification_text"
+                android:textSize="@dimen/common_text_size_small" />
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:text="@string/km_2"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                        <TextView
-                            android:id="@+id/tv2"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:textColor="@color/color_notification_text_secondary"
-                            android:textSize="@dimen/common_text_size_small_very" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="Makanan yang mengandung lemak jenuh tinggi yang perlu dibatasi terutama dari daging, makanan laut (seafood), produk susu seperti keju dan es krim. Selain ituperlumembatasi konsumsi makanan penganan (snacks), margarin, makanan yang dipanggang atau dibakar dan makanan olahan yang banyak mengandung lemak trans."
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very" />
 
         </LinearLayout>
 
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="@string/km_3"
+                android:textColor="@color/color_notification_text"
+                android:textSize="@dimen/common_text_size_small" />
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:text="@string/km_3"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                        <TextView
-                            android:id="@+id/tv3"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:textColor="@color/color_notification_text_secondary"
-                            android:textSize="@dimen/common_text_size_small_very" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very"
+                android:layout_marginTop="5dp"/>
 
         </LinearLayout>
 
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
+
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="@string/km_4"
+                android:textColor="@color/color_notification_text"
+                android:textSize="@dimen/common_text_size_small" />
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:text="@string/km_4"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                        <TextView
-                            android:id="@+id/tv4"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:textColor="@color/color_notification_text_secondary"
-                            android:textSize="@dimen/common_text_size_small_very" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very"
+                android:layout_marginTop="5dp"/>
 
         </LinearLayout>
 
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:text="@string/km_5"
+                android:textColor="@color/color_notification_text"
+                android:textSize="@dimen/common_text_size_small" />
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:text="@string/km_5"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                        <TextView
-                            android:id="@+id/tv5"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif"
-                            android:gravity="left"
-                            android:textColor="@color/color_notification_text_secondary"
-                            android:textSize="@dimen/common_text_size_small_very" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:textColor="@color/color_notification_text_secondary"
+                android:textSize="@dimen/common_text_size_small_very"
+                android:layout_marginTop="5dp"/>
 
         </LinearLayout>
 
-    </LinearLayout>
-    <!--END ROW-->
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>
 
-</RelativeLayout>

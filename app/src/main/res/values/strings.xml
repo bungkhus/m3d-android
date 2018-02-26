@@ -27,4 +27,21 @@
     <string name="af_1">Intensitas sedang (50-70% denyut nadi maksimal).</string>
     <string name="af_2">Aerobik 75 menit/minggu.</string>
     <string name="af_3">Aktivitas dibagi dalam tiga hari per minggu dan tidak ada dua hari berturut-turut tanpa aktivitas fisik.</string>
+    <string name="ya">YA</string>
+    <string name="tidak">TIDAK</string>
+    <string name="q_1">Berapa lingkar perut anda?</string>
+    <string name="q_2">Hitung Index Masa Tubuh (IMT) anda</string>
+    <string name="q_3">Apakah anda sering merasa haus?</string>
+    <string name="q_4">Berapa gelas anda minum air putih setiap harinya?</string>
+    <string name="q_5">Apakah anda sering merasa lapar?</string>
+    <string name="q_6">Berapa kali anda makan nasi per hari?</string>
+    <string name="q_7">Berapa kali sehari anda mengonsumsi makanan berserat seperti buah dan sayur?</string>
+    <string name="q_8">Berapa banyak anda sering mengemil?</string>
+    <string name="q_9">Berapa banyak anda mengkonsumsi minuman ? (seperti teh/kopi)</string>
+    <string name="q_10">Apakah anda sering buang air kecil di malam hari?</string>
+    <string name="q_11">Berapa kali anda buang air kecil di malam hari?</string>
+    <string name="q_12">Apakah anda rutin melakukan olahraga per minggu?</string>
+    <string name="q_13">Berapa kali anda melakukan olahraga perminggu?</string>
+    <string name="q_14">Apakah anda merokok?</string>
+    <string name="q_15">Apakah anda sering pusing?</string>
 </resources>

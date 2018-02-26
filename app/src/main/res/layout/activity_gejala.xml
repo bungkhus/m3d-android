@@ -1,255 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="tk.bungkhus.d3m.GejalaActivity">
-    <!--ROW-->
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
         android:orientation="vertical"
-        android:paddingBottom="20dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+        android:padding="20dp">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="3dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:shadowColor="@color/color_notification_text"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:text="Meningkatkan risik penyakit jantung dan stroke"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:padding="8dp">
+        <android.support.v7.widget.CardView
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:layout_marginTop="10dp"
+            card_view:cardCornerRadius="3dp">
 
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="5dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center"
-                            android:layout_centerVertical="true"
-                            android:text="@string/k_1"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
 
-                    </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:shadowColor="@color/color_notification_text"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:text="Neuropati (kerusakan syaraf) di kaki yang meningkatkan kejadian ulkus kaki, infeksi dan bahkan keharusan untuk amputasi kaki."
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-                </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:layout_marginTop="10dp"
+            card_view:cardCornerRadius="3dp">
 
-            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:shadowColor="@color/color_notification_text"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:text="Retinopati diabetikus, yang merupakan salah satu penyebab utama kebutaan, terjadi akibat kerusakan pembuluh darah kecil di retina."
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
+        <android.support.v7.widget.CardView
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:layout_marginTop="10dp"
+            card_view:cardCornerRadius="3dp">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
 
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:shadowColor="@color/color_notification_text"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:text="Diabetes merupakan salah satu penyebab utama gagal ginjal."
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
+        <android.support.v7.widget.CardView
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:layout_marginTop="10dp"
+            card_view:cardCornerRadius="3dp">
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:padding="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
 
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="5dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center"
-                            android:layout_centerVertical="true"
-                            android:text="@string/k_2"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
-
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="5dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center"
-                            android:layout_centerVertical="true"
-                            android:text="@string/k_3"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
-
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="5dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center"
-                            android:layout_centerVertical="true"
-                            android:text="@string/k_4"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:gravity="center">
-
-                <android.support.v7.widget.CardView
-                    style="@style/CardView.Light"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="2dp"
-                    android:elevation="3dp"
-                    card_view:cardCornerRadius="3dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="5dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center"
-                            android:layout_centerVertical="true"
-                            android:text="@string/k_5"
-                            android:textColor="@color/color_notification_text"
-                            android:textSize="@dimen/common_text_size_small" />
-
-                    </RelativeLayout>
-
-                </android.support.v7.widget.CardView>
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:shadowColor="@color/color_notification_text"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:text="Risiko kematian penderita diabetes secara umum adalah dua kali lipat dibandingkan bkan penderita diabetes."
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
     </LinearLayout>
-    <!--END ROW-->
-
-</RelativeLayout>
+</ScrollView>
