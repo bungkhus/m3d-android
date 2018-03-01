@@ -12,6 +12,7 @@
         android:background="#FFF"
         >
         <Button
+            android:id="@+id/bottomSubmit"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginRight="14dp"
@@ -33,6 +34,7 @@
 
             <android.support.v7.widget.CardView
                 style="@style/CardView.Light"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -88,6 +90,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:elevation="3dp"
+                android:visibility="gone"
                 card_view:cardCornerRadius="3dp"
                 android:layout_marginTop="10dp">
 
@@ -166,7 +169,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -174,14 +178,13 @@
                             android:id="@+id/radio_y_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -219,7 +222,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -227,14 +231,13 @@
                             android:id="@+id/radio_y_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -272,7 +275,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_5"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -280,14 +284,13 @@
                             android:id="@+id/radio_y_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -300,7 +303,8 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:elevation="3dp"
-                card_view:cardCornerRadius="3dp">
+                card_view:cardCornerRadius="3dp"
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -324,20 +328,20 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_6"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         <RadioButton android:id="@+id/radio_y_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton android:id="@+id/radio_n_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -375,7 +379,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_7"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -383,14 +388,13 @@
                             android:id="@+id/radio_y_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -428,7 +432,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_8"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -436,14 +441,13 @@
                             android:id="@+id/radio_y_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -481,7 +485,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_9"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -489,14 +494,13 @@
                             android:id="@+id/radio_y_9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -534,7 +538,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_10"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -542,14 +547,13 @@
                             android:id="@+id/radio_y_10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -562,7 +566,8 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:elevation="3dp"
-                card_view:cardCornerRadius="3dp">
+                card_view:cardCornerRadius="3dp"
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -586,20 +591,20 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_11"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         <RadioButton android:id="@+id/radio_y_11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton android:id="@+id/radio_n_11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -637,7 +642,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_12"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -645,14 +651,13 @@
                             android:id="@+id/radio_y_12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -690,7 +695,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_13"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -698,14 +704,13 @@
                             android:id="@+id/radio_y_13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -743,7 +748,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_14"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -751,14 +757,13 @@
                             android:id="@+id/radio_y_14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>
@@ -796,7 +801,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    <RadioGroup
+                        android:id="@+id/radio_q_15"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -804,14 +810,13 @@
                             android:id="@+id/radio_y_15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:text="@string/ya"/>
                         <RadioButton
                             android:id="@+id/radio_n_15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tidak"
-                            android:onClick="onRadioButtonClicked"/>
+                            android:checked="true"
+                            android:text="@string/tidak"/>
                     </RadioGroup>
 
                 </LinearLayout>

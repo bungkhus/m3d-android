@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         btMenu4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, DeteksiActivity.class);
+                Intent i = new Intent(MainActivity.this, LingkarPerutActivity.class);
                 startActivity(i);
             }
         });

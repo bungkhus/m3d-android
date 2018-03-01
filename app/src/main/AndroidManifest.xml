@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/MainTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +23,9 @@
         <activity android:name=".GejalaActivity" />
         <activity android:name=".DeteksiActivity" />
         <activity android:name=".KomposisiMakananActivity" />
-        <activity android:name=".AktifitasActivity"></activity>
+        <activity android:name=".AktifitasActivity" />
+        <activity android:name=".LingkarPerutActivity" />
+        <activity android:name=".HitungImtActivity"></activity>
     </application>
 
 </manifest>

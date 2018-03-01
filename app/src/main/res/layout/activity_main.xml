@@ -10,13 +10,13 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:background="#FFF"
+        android:background="#4F2867"
         android:layout_height="@dimen/menu_pager_size">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/banner"
+            android:src="@drawable/asidi"
             android:scaleType="fitCenter"/>
 
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">D3M</string>
+    <string name="app_name">ASiDi</string>
     <string name="menu_1">Apa itu DM?</string>
     <string name="menu_2">Faktor Resiko</string>
     <string name="menu_3">Komplikasi</string>
@@ -32,16 +32,16 @@
     <string name="q_1">Berapa lingkar perut anda?</string>
     <string name="q_2">Hitung Index Masa Tubuh (IMT) anda</string>
     <string name="q_3">Apakah anda sering merasa haus?</string>
-    <string name="q_4">Berapa gelas anda minum air putih setiap harinya?</string>
+    <string name="q_4">Apakah anda meminum air putih lebih dari 8 liter setiap harinya?</string>
     <string name="q_5">Apakah anda sering merasa lapar?</string>
-    <string name="q_6">Berapa kali anda makan nasi per hari?</string>
-    <string name="q_7">Berapa kali sehari anda mengonsumsi makanan berserat seperti buah dan sayur?</string>
-    <string name="q_8">Berapa banyak anda sering mengemil?</string>
-    <string name="q_9">Berapa banyak anda mengkonsumsi minuman ? (seperti teh/kopi)</string>
+    <string name="q_6">Apakah anda makan nasi lebih dari 2 kali per hari?</string>
+    <string name="q_7">Apakah anda mengonsumsi makanan berserat seperti buah dan sayur kurang dari 2 kali per hari?</string>
+    <string name="q_8">Apakah anda sering mengemil?</string>
+    <string name="q_9">Apakah anda mengkonsumsi minuman libih dari 1 kali? (seperti teh/kopi)</string>
     <string name="q_10">Apakah anda sering buang air kecil di malam hari?</string>
-    <string name="q_11">Berapa kali anda buang air kecil di malam hari?</string>
+    <string name="q_11">Apakah anda buang air kecil di malam hari lebih dari 3 kali?</string>
     <string name="q_12">Apakah anda rutin melakukan olahraga per minggu?</string>
-    <string name="q_13">Berapa kali anda melakukan olahraga perminggu?</string>
+    <string name="q_13">Apakah anda melakukan olahraga lebih dari 1 kali perminggu?</string>
     <string name="q_14">Apakah anda merokok?</string>
     <string name="q_15">Apakah anda sering pusing?</string>
 </resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/bottomFlat"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="49dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#FFF"-->
+        <!--&gt;-->
+    <!--</LinearLayout>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/imt3"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_notification_text"
+                android:textSize="@dimen/common_text_size_small"
+                android:text="HITUNG IMT"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                />
+
+            <View
+                android:id="@+id/tv1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_notification_text_secondary"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            //Hitung
+            <TextView
+                android:id="@+id/txtTinggi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/edTinggi"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tinggi dalam satuan CM"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtBerat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/edBerat"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Berat dalam satuan KG"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtHasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btHitung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hitung" />
+
+                <Button
+                    android:id="@+id/btHapus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hapus"
+                    android:onClick="hapus"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtKeterangan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/txtKeterangan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="NEXT"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
