@@ -19,7 +19,6 @@
             android:src="@drawable/asidi"
             android:scaleType="fitCenter"/>
 
-
         <View
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -31,11 +30,12 @@
     <!--ROW-->
 
     <LinearLayout
+        android:id="@+id/viewRow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="-20dp"
         android:orientation="vertical"
-        android:paddingBottom="20dp"
+        android:paddingBottom="0dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
@@ -260,7 +260,6 @@
 
         </LinearLayout>
 
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
@@ -371,8 +370,17 @@
 
         </LinearLayout>
 
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
     </LinearLayout>
     <!--END ROW-->
-
 
 </LinearLayout>

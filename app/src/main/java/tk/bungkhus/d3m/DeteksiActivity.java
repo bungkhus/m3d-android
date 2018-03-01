@@ -92,13 +92,11 @@ public class DeteksiActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int choice) {
                         switch (choice) {
-                            case DialogInterface.BUTTON_POSITIVE:
+                            case DialogInterface.BUTTON_NEGATIVE:
                                 Intent i = new Intent(DeteksiActivity.this, MainActivity.class);
                                 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                 startActivity(i);
                                 finish();
-                                break;
-                            case DialogInterface.BUTTON_NEGATIVE:
                                 break;
                         }
                     }
